@@ -1,5 +1,15 @@
 # yihaiyoudao-skills
 
+> **把专业变成能卖的产品** —— 一套可跨平台使用的开源技能集（Agent Skills / SKILL.md 格式），把你的专业与经验变成可重复执行的流程：**定方向 → 搭工具 → 跑内容 → 跑变现**。
+
+<p align="center">
+  <img src="https://img.shields.io/badge/skills-6%20Agent%20Skills-blue?style=flat-square" alt="6 skills">
+  <img src="https://img.shields.io/badge/format-Agent%20Skills%20(SKILL.md)-brightgreen?style=flat-square" alt="Agent Skills">
+  <img src="https://img.shields.io/badge/license-Source%20Available-orange?style=flat-square" alt="license">
+  <img src="https://img.shields.io/badge/platform-ClawHub%20%7C%20OpenClaw%20%7C%20Claude%20%7C%20Coze%20%7C%20Trae-lightgrey?style=flat-square" alt="platform">
+  <img src="https://img.shields.io/github/stars/lichengyu1207/yihaiyoudao-skills?style=flat-square&label=stars" alt="stars">
+</p>
+
 面向自媒体、创业、副业、企业的赋能技能集，采用通用 **Agent Skills（SKILL.md）** 格式，可跨平台使用。
 
 ## ⚡ 快速开始（30 秒，不需要懂 git）
@@ -46,7 +56,7 @@ gemini skills install https://github.com/lichengyu1207/yihaiyoudao-skills.git
 | [yihaiyoudao](yihaiyoudao/) | 内容审核与原创改造：原创性判定、限流风险词库与替换、观点化改造、风格统一 |
 | [pi-jev](pi-jev/) | 决策层：Jev 式自动选技能 + 模型档位路由 + 使用学习；新任务先跑它确定用哪个技能 |
 | [yijiandaodi-tixiao](yijiandaodi-tixiao/) | AI 操作安全审计与提效：敏感信息检测脱敏、哈希链存证、文件/剪贴板监控、AIGC 本地校验（能力融合自 [yijiandaodi-core](https://github.com/lichengyu1207/yijiandaodi-core)） |
-| [ip-peipao-9clients](ip-peipao-9clients/) | 9 大核心客户陪跑与转化：客户档案、分层跟进（9.9 体验群→600 陪跑→企业版）、每日/每周 SOP、私信话术（独立仓库：lichengyu1207/ip-peipao-9clients） |
+| [ip-peipao-9clients](https://github.com/lichengyu1207/ip-peipao-9clients) | 9 大核心客户陪跑与转化：客户档案、分层跟进（9.9 体验群→600 陪跑→企业版）、每日/每周 SOP、私信话术（独立仓库） |
 
 ## 快速安装（zip 方式）
 
@@ -73,7 +83,7 @@ gemini skills install https://github.com/lichengyu1207/yihaiyoudao-skills.git
 | `qingchuang-shizhan/` | 内容创业实操技能：定位、内容生产、多平台分发、变现 |
 | `yihaiyoudao/` | 内容审核与原创改造技能：原创性判定、限流识别、观点化 |
 | `yijiandaodi-tixiao/` | 安全审计与提效技能：敏感信息检测脱敏、哈希链存证、监控 |
-| `ip-peipao-9clients/` | 客户陪跑转化技能（作者侧）：9 大核心客户分层跟进 |
+| `ip-peipao-9clients` | 客户陪跑转化技能（作者侧）：9 大核心客户分层跟进（独立仓库：[lichengyu1207/ip-peipao-9clients](https://github.com/lichengyu1207/ip-peipao-9clients)，本仓库不内置） |
 
 > 每个技能目录结构统一：`SKILL.md` + `references/`（词库/模板）+ `scripts/`（Python 自动化，纯标准库）+ `memory/`（学习日志）+ `.claude-plugin/plugin.json`，兼容主流平台技能格式。
 
