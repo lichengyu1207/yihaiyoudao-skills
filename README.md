@@ -72,7 +72,7 @@ gemini skills install https://github.com/lichengyu1207/yihaiyoudao-skills.git
 | 文件 / 目录 | 说明 |
 |---|---|
 | `README.md` | 本文件：快速开始、技能列表、平台安装、触发示例 |
-| `yihaiyoudao技能包-保姆级操作手册.pdf` | 保姆级图文手册（安装 / 使用 / 操作三合一，24 页，含九客户真实路径与一鉴到底配套说明） |
+| `yihaiyoudao技能包-保姆级操作手册.pdf` | 保姆级图文手册（安装 / 使用 / 操作三合一，22 页，含九客户真实路径与一鉴到底配套说明） |
 | `YIJIANDAODI.md` | 配套软件「一鉴到底」产品说明（AI 操作行为安全审计） |
 | `LICENSE.md` | 源码可用许可：能看、能学、能自己用，禁止未授权转售 |
 | `PARTNER.md` | C 转 B 授权分销说明（差价即利润，合规转售） |
