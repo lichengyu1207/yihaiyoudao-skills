@@ -1,6 +1,6 @@
-# yihaiyoudao-skills
+# yihaiyoudao-skills（意骇有道）
 
-> **把专业变成能卖的产品** —— 一套可跨平台使用的开源技能集（Agent Skills / SKILL.md 格式），把你的专业与经验变成可重复执行的流程：**定方向 → 搭工具 → 跑内容 → 跑变现**。
+> **把专业变成能卖的产品** —— yihaiyoudao（中文名：**意骇有道**）是一套可跨平台使用的开源技能集（Agent Skills / SKILL.md 格式），把你的专业与经验变成可重复执行的流程：**定方向 → 搭工具 → 跑内容 → 跑变现**。
 
 <p align="center">
   <img src="https://img.shields.io/badge/skills-6%20Agent%20Skills-blue?style=flat-square" alt="6 skills">
@@ -53,7 +53,7 @@ gemini skills install https://github.com/lichengyu1207/yihaiyoudao-skills.git
 |---|---|
 | [zhanlue-peipao](zhanlue-peipao/) | 战略陪跑教练：自媒体/创业/副业/企业四场景 × 10万/100万/1000万三档目标的诊断、路线图、里程碑与复盘 |
 | [qingchuang-shizhan](qingchuang-shizhan/) | 内容创业与轻创业实操教练：定位、内容生产、多平台分发、获客私域、合规变现、现金流风控 |
-| [yihaiyoudao](yihaiyoudao/) | 内容审核与原创改造：原创性判定、限流风险词库与替换、观点化改造、风格统一 |
+| [yihaiyoudao](yihaiyoudao/) | 意骇有道·内容审核与原创改造：原创性判定、限流风险词库与替换、观点化改造、风格统一 |
 | [pi-jev](pi-jev/) | 决策层：Jev 式自动选技能 + 模型档位路由 + 使用学习；新任务先跑它确定用哪个技能 |
 | [yijiandaodi-tixiao](yijiandaodi-tixiao/) | AI 操作安全审计与提效：敏感信息检测脱敏、哈希链存证、文件/剪贴板监控、AIGC 本地校验（能力融合自 [yijiandaodi-core](https://github.com/lichengyu1207/yijiandaodi-core)） |
 | [ip-peipao-9clients](https://github.com/lichengyu1207/ip-peipao-9clients) | 9 大核心客户陪跑与转化：客户档案、分层跟进（9.9 体验群→600 陪跑→企业版）、每日/每周 SOP、私信话术（独立仓库） |
