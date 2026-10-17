@@ -57,6 +57,26 @@ gemini skills install https://github.com/lichengyu1207/yihaiyoudao-skills.git
 - Cursor：`~/.cursor/skills/`
 - 其他平台：见下方「平台支持」
 
+## 仓库结构与文件说明
+
+| 文件 / 目录 | 说明 |
+|---|---|
+| `README.md` | 本文件：快速开始、技能列表、平台安装、触发示例 |
+| `yihaiyoudao技能包-保姆级操作手册.pdf` | 保姆级图文手册（安装 / 使用 / 操作三合一，24 页，含九客户真实路径与一鉴到底配套说明） |
+| `YIJIANDAODI.md` | 配套软件「一鉴到底」产品说明（AI 操作行为安全审计） |
+| `LICENSE.md` | 源码可用许可：能看、能学、能自己用，禁止未授权转售 |
+| `PARTNER.md` | C 转 B 授权分销说明（差价即利润，合规转售） |
+| `install-all.bat` / `install-all.sh` | 一键安装脚本（Windows / Mac·Linux） |
+| `README-APPEND.md` | ClawHub 等补充说明 |
+| `pi-jev/` | 决策层技能（总入口）：自动选技能 + 模型档位路由 + 使用学习 |
+| `zhanlue-peipao/` | 战略陪跑技能：目标拆解、路线图、里程碑、复盘 |
+| `qingchuang-shizhan/` | 内容创业实操技能：定位、内容生产、多平台分发、变现 |
+| `yihaiyoudao/` | 内容审核与原创改造技能：原创性判定、限流识别、观点化 |
+| `yijiandaodi-tixiao/` | 安全审计与提效技能：敏感信息检测脱敏、哈希链存证、监控 |
+| `ip-peipao-9clients/` | 客户陪跑转化技能（作者侧）：9 大核心客户分层跟进 |
+
+> 每个技能目录结构统一：`SKILL.md` + `references/`（词库/模板）+ `scripts/`（Python 自动化，纯标准库）+ `memory/`（学习日志）+ `.claude-plugin/plugin.json`，兼容主流平台技能格式。
+
 ## 平台支持
 
 仓库已配置 Claude Code marketplace 清单（`.claude-plugin/marketplace.json`），各平台安装方式如下：
